@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TrackBall - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPEE97.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "tools" /I "FreeImage" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Earth.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Teach\tutorials\student\实验七\tools\ggltools.cpp"
+"D:\Teach\tutorials\student\实验七\tools\glight.cpp"
+"D:\Teach\tutorials\student\实验七\tools\gmaterial.cpp"
+"D:\Teach\tutorials\student\实验七\tools\gmath.cpp"
+"D:\Teach\tutorials\student\实验七\tools\gmatrix3d.cpp"
+"D:\Teach\tutorials\student\实验七\tools\gpoint3d.cpp"
+"D:\Teach\tutorials\student\实验七\tools\gquaternion3d.cpp"
+"D:\Teach\tutorials\student\实验七\tools\gtexture2d.cpp"
+"D:\Teach\tutorials\student\实验七\tools\gvector3d.cpp"
+"D:\Teach\tutorials\student\实验七\main.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPEE97.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPEE98.tmp" with contents
+[
+FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Earth.pdb" /debug /machine:I386 /out:"Debug/Earth.exe" /pdbtype:sept /libpath:"FreeImage" 
+".\Debug\ggltools.obj"
+".\Debug\glight.obj"
+".\Debug\gmaterial.obj"
+".\Debug\gmath.obj"
+".\Debug\gmatrix3d.obj"
+".\Debug\gpoint3d.obj"
+".\Debug\gquaternion3d.obj"
+".\Debug\gtexture2d.obj"
+".\Debug\gvector3d.obj"
+".\Debug\main.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPEE98.tmp"
+<h3>Output Window</h3>
+Compiling...
+ggltools.cpp
+glight.cpp
+gmaterial.cpp
+gmath.cpp
+gmatrix3d.cpp
+gpoint3d.cpp
+gquaternion3d.cpp
+gtexture2d.cpp
+gvector3d.cpp
+main.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Earth.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
